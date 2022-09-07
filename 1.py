@@ -39,15 +39,15 @@
 #x_point = int (input ('Введите координату x: ')) 
 #y_point = int (input ('Введите координату y: ')) 
 #if ((x_point == 0) or (y_point == 0)):
- #   print ('ошибка!')
+#   print ('ошибка!')
 #elif (x_point < 0 and y_point > 0):
- #   print ('1 четверть')
+#   print ('1 четверть')
 #elif (x_point > 0 and y_point > 0):
- #   print ('2 четверть')
+#   print ('2 четверть')
 #elif (x_point > 0 and y_point < 0):
- #   print ('3 четверть')
+#   print ('3 четверть')
 #elif (x_point < 0 and y_point < 0):
- #   print ('4 четверть')
+#   print ('4 четверть')
  
 x_point = int (input ('Введите координату x: ')) 
 y_point = int (input ('Введите координату y: ')) 
