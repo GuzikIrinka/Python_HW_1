@@ -36,6 +36,9 @@
 #- x=2; y=4-> 1
 #- x=-34; y=-30 -> 3
 
+from turtle import distance
+
+
 x_point = int (input ('Введите координату x: '))
 y_point = int (input ('Введите координату y: ')) 
 if x_point == 0 and y_point == 0:
@@ -67,4 +70,12 @@ elif quater == 4:
 # и находит растояние между ними в 2D пространстве
 # - A (3,6); B (2,1) -> 5,09
 # - A (7,-5); B (1,-1) -> 7,21
+
+import math
+x1 = int(input('x1 - '))
+y1 = int(input('y1 - '))
+x2 = int(input('x2 - '))
+y2 = int(input('y2 - '))
+distance = math.sqrt((x2-x1)**2+(y2-y1)**2)
+print('{:.2f}'.format(distance), sep='')
 
